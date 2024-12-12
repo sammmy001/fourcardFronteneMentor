@@ -70,6 +70,9 @@ img{
     margin-bottom: 20px;
     border-radius: 5px;
 }
+.box:hover{
+    cursor: pointer;
+}
 
 .one{
     border-top: 5px solid #49CFD0;
@@ -89,6 +92,7 @@ img{
     .p2{
         width: 65%;
     }
+    
 }
 
 @media screen and (min-width:875px){
@@ -116,4 +120,9 @@ img{
     .card{
         flex: 33.33%;
     }
+
+    .box:hover{
+        transform: scale(1.1);
+        transition: .3s;
+        }
 }
